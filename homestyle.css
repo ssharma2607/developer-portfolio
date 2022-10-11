@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.hero-section {
+  background-image: url("./img/main-bg,png");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(247, 140, 75, 0.1);
+}
+
+.education-section-title-chip {
+  margin: 10px auto;
+  width: fit-content;
+  text-align: center;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+.services-section {
+  background-color: #f9fbfd;
+}
+.service-icon {
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+  margin: 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.service-icon.pen {
+  background-color: rgb(173, 195, 221);
+  color: rgb(57, 70, 100);
+}
+.service-icon.square {
+  background-color: rgb(202, 231, 190);
+  color: rgb(74, 119, 80);
+}
+.service-icon.book {
+  background-color: rgb(221, 213, 188);
+  color: rgb(192, 179, 108);
+}
+.contact-section-home {
+  background-image: url("https://mannatthemes.com/selfown/default/images/personal/testi-pet.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 50px 0;
+  background-color: #f9fbfd !important;
+}
+.testimonial-section {
+  background-color: #f9fbfd;
+}
+.testimonial-section-card-img {
+  margin: 20px 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512s256-114.6 256-256zM271 135c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-87 87 87 87c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L167 273c-9.4-9.4-9.4-24.6 0-33.9L271 135z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256S397.4 0 256 0S0 114.6 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z'/%3E%3C/svg%3E");
+}
+.blog-section-card-footer {
+  font-size: 15px;
+}
+
+.contact-section {
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 50px 0;
+  background-color: #f9fbfd;
+}
+.contact-section-info {
+  background-color: #d0e1f3;
+  color: rgb(53, 56, 97);
+  width: 10%;
+  height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section-body {
+  background-color: white;
+  background-image: url("https://mannatthemes.com/selfown/default/images/personal/testi-pet.png");
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 15%;
+}
+.footer-section {
+  background-color: #172d51;
+}
+.footer-section .footer-link:hover a {
+  color: white;
+}
+
+.footer-section .footer-section-seprator {
+  color: white;
+}
+.footer-section h4 {
+  color: white;
+}
+
+.footer-section .footer-section-copyright {
+  color: #6c757d;
+}
+
+.footer-section .footer-link a {
+  text-decoration: none;
+  color: #6c757d;
+}

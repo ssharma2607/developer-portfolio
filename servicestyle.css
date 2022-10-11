@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero-section {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMGbmP8ZB0t6kGbO-o9W8ZcDdhp5EWs3LI-g&usqp=CAU);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.hero-section .body-text {
+  color: #f9fbfd;
+}
+.service-infomation-section {
+  margin-top: 20px;
+}
+.service-icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  margin: 15px 10px;
+  border-radius: 5px;
+}
+.service-icon.awesome {
+  background-color: rgb(230, 191, 169);
+  color: rgb(226, 134, 98);
+}
+.service-icon.dynamic {
+  background-color: rgb(228, 181, 218);
+  color: rgb(221, 138, 186);
+}
+.service-icon.branding {
+  background-color: rgb(194, 187, 204);
+  color: rgb(169, 210, 233);
+}
+.service-icon.app {
+  background-color: rgb(169, 194, 177);
+  color: rgb(125, 175, 150);
+}
+.service-icon.business {
+  background-color: rgb(185, 218, 240);
+  color: rgb(41, 81, 114);
+}
+.service-icon.web {
+  background-color: rgb(218, 166, 179);
+  color: rgb(192, 130, 130);
+}
+
+.contact-section {
+  background-image: url("https://mannatthemes.com/selfown/default/images/personal/testi-pet.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 50px 0;
+  background-color: #f9fbfd !important;
+}
+.footer-section .footer-section-seprator {
+  color: white;
+}
+.footer-section {
+  background-color: #172d51;
+}
+.footer-section .footer-link:hover a {
+  color: white;
+}
+.footer-section h4 {
+  color: white;
+}
+.footer-section .footer-section-copyright {
+  color: #6c757d;
+}
+.footer-section .footer-link a {
+  text-decoration: none;
+  color: #6c757d;
+}
